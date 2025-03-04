@@ -56,7 +56,29 @@ This output indicates that:
 - Each transaction is settled at **23**.
 
 ## Security and Privacy Analysis
-Updating this as per the grade A criteria.
+**If the shares of **** are sent to **:
+
+Each buyer only learns whether they got an item or not.
+
+They do not learn the values of the other bids or seller prices.
+
+**If ** such that ** is sent to **``:
+
+Each seller only learns which buyer purchased from them.
+
+They do not learn the highest bid or the allocation of other buyers.
+
+**If the shares of **** are sent to **:
+
+Buyers already know their own bid, so no additional information is revealed.
+
+They do not learn the seller's minimum price.
+
+**If the shares of ** such that ** are sent to **``:
+
+Sellers learn the final price paid by the buyer who purchased from them.
+
+They do not learn the highest bid or any unsuccessful bids.
 
 ## Conclusion
 This auction system successfully implements secure multi-party computation for fair and private matching of buyers and sellers. The approach optimally allocates resources while preserving privacy. The privacy analysis ensures that minimal information is leaked, making this implementation secure and compliant with **Grade A** requirements.
