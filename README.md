@@ -81,7 +81,7 @@ Sellers learn the final price paid by the buyer who purchased from them.
 They do not learn the highest bid or any unsuccessful bids.
 
 ## Conclusion
-This auction system successfully implements secure multi-party computation for fair and private matching of buyers and sellers. The approach optimally allocates resources while preserving privacy. The privacy analysis ensures that minimal information is leaked, making this implementation secure and compliant with **Grade A** requirements.
+This auction system successfully implements secure multi-party computation for fair and private matching of buyers and sellers. The approach optimally allocates resources while preserving privacy.
 
 ## Repository
 The complete source code and documentation are available at:
